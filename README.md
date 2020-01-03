@@ -1,7 +1,7 @@
 # FlaskRestful-CRUD-API
 small api written with the help of Flask Restful
 
-Python 3.7.5
+Python 3.7.5 \n
 Маленький АПИ. Написанный на Фласке. Основная задача была в изучении написания CRUD функционала. 
 Для запуска необходима клонировать репозиторий.
 Установить нужные зависимости из файла requirements.txt
