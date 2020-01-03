@@ -8,10 +8,10 @@ from flask_httpauth import HTTPDigestAuth
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////home/bme/Python Projects/Flasl CRUD Api/my.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'Путь до вашей БД'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['BUNDLE_ERRORS'] = False
-app.config['SECRET_KEY'] = "?}\xb4\x86\xe1\xf3>\x1fF\x84R\x9e\x80*\xdc0,\xb4\x08\xbcY\xb2dl"
+app.config['SECRET_KEY'] = "Ваш Секретный Код"
 auth = HTTPDigestAuth()
 ma = Marshmallow(app)
 db = SQLAlchemy(app)
